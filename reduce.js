@@ -14,3 +14,4 @@ function reduce(elements, cb, startingValue) {
 const reduceVal = reduce(items,(acc,cv) => (acc+cv),0)
 
 console.log(reduceVal)
+
